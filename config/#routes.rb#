@@ -1,7 +1,5 @@
 PracticeApp::Application.routes.draw do
  
-  resources :users
-
 
   get "users/new"
 
@@ -31,7 +29,7 @@ PracticeApp::Application.routes.draw do
   #       get 'short'
   #       post 'toggle'
   #     end
-  #
+ #
   #     collection do
   #       get 'sold'
   #     end
